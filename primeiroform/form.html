@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <p> Por favor, preencha os campos abaixo</p>
+    <form action="cadastro.php" autocomplete="off">
+        <p> Nome Completo: <input type="text" name="nome" id="nome"></p>
+        <p> Seu E-mail: <input type="email" name="email" id="email"></p>
+
+        <p> Sexo: </p>
+        <input type="radio" name="sexo" id="masc"> <label for="sexo"> Masculino</label> <br>
+        <input type="radio" name="sexo" id="fem"> <label for="sexo"> Feminino</label>
+        
+        
+
+        <p> Estado Civil: </p>
+        <input type="radio" name="estadoc" id="solteiro"> Solteiro <br>
+        <input type="radio" name="estadoc" id="casado"> Casado <br>
+        <input type="radio" name="estadoc" id="divorciado"> Divorciado
+         
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+</body>
+</html>
