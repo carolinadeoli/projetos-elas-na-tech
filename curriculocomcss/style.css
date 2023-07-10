@@ -6,8 +6,8 @@
     
 }
 img{
-    width: 70px;
-    height:70px;
+    width: 78px;
+    height:78px;
     text-align: left;
     
 }
@@ -20,11 +20,12 @@ h1{
 }
 h2{
     background-color: #b6bac78e;
+    padding:2px;
 }
 hr{
-    height:1px;
+    height: 2px;
     margin: 0px;
-    background-color: black ;
+    background-color: black;
 }
 p#dados{
     text-align: center;
@@ -33,7 +34,8 @@ p#dados{
 p.subt{
     font-weight:bolder;
     font-size:1em;
-    padding:5px;
+    padding:2px;
+    
 }
 p{
     padding:2px;
