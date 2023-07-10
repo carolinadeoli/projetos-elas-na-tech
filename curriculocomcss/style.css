@@ -1,8 +1,40 @@
 @charset "UTF-8";
 
+*{
+    margin: 12px;
+    background-color: #f3f0f0;
+    
+}
 img{
-    width: 65px;
-    height:65px;
+    width: 70px;
+    height:70px;
     text-align: left;
-    margin-left: ;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: 600;
+    background-color: #e3d6ebcb;
+}
+h2{
+    background-color: #b6bac78e;
+}
+hr{
+    height:1px;
+    margin: 0px;
+    background-color: black ;
+}
+p#dados{
+    text-align: center;
+    font-size: 0.9em;
+}
+p.subt{
+    font-weight:bolder;
+    font-size:1em;
+    padding:5px;
+}
+p{
+    padding:2px;
 }
